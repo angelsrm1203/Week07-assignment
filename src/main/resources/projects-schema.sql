@@ -44,4 +44,8 @@ project_id INT NOT NULL,
 category_id INT NOT NULL,
 FOREIGN KEY (project_id) REFERENCES project (project_id) ON DELETE CASCADE,
 FOREIGN KEY (category_id) REFERENCES category (category_id)
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 1d3cff306c151d0e885e277e498b497aa48ab372
